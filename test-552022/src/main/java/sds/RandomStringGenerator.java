@@ -29,13 +29,9 @@ public class RandomStringGenerator {
     public String generate(int nUpper) {
         mode = 1;
         for (int i = 0; i < nLength; i++) {
-            if (getRandomMode(2) == mode) {
+            if (getRandomMode(2) == mode && countChar <= nUpper) {
                 countChar++;
-                if (countChar <= nUpper) {
-                    stringBuilder.append(upper[getRandomNumber()]);
-                } else {
-                    stringBuilder.append(lower[getRandomNumber()]);
-                }
+                stringBuilder.append(upper[getRandomNumber()]);
             } else {
                 stringBuilder.append(lower[getRandomNumber()]);
             }
@@ -47,13 +43,13 @@ public class RandomStringGenerator {
     public String generate(int nUpper, int nNumeric) {
         mode = 2;
         for (int i = 0; i < nLength; i++) {
-            if (getRandomMode(3) == 1) {
+            int ranMode = getRandomMode(3);
+            if (ranMode == 1 && countChar < nUpper) {
                 countChar++;
-                if (countChar <= nUpper) {
-                    stringBuilder.append(upper[getRandomNumber()]);
-                } else {
-                    stringBuilder.append(lower[getRandomNumber()]);
-                }
+                stringBuilder.append(upper[getRandomNumber()]);
+            } else if (ranMode == 2 && countNum < nNumeric) {
+                countNum++;
+                stringBuilder.append(numeric[getRandomNumber()]);
             } else {
                 stringBuilder.append(lower[getRandomNumber()]);
             }
@@ -70,6 +66,6 @@ public class RandomStringGenerator {
     }
 
     private int getRandomMode(int maxNum) {
-        return random.nextInt(2);
+        return random.nextInt(maxNum);
     }
 }
