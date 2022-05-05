@@ -8,9 +8,6 @@ public class App {
         RandomStringGenerator randomStringGenerator2 = new RandomStringGenerator(0, 20);
         System.out.println(randomStringGenerator2.generate(5));
 
-        RandomStringGenerator randomStringGenerator3 = new RandomStringGenerator(0, 20);
-        System.out.println(randomStringGenerator3.generate(5, 5));
-
 
         System.exit(1);
 
