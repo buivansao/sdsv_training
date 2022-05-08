@@ -1,0 +1,4 @@
+{"questionId": 1,"point": 2,"minutes": 2,"type": "MultipleChoiceQuestion", "solution": "A", "opt1": "A. Java is a Programming language", "opt2": "B. Java is a game", "opt3": "C. Java khong la gi ca", "opt4": "Java kho hoc"}
+{"questionId": 2,"point": 1,"minutes": 2,"type": "MultipleChoiceQuestion", "solution": "B", "opt1": "A. Meo la mot mon an", "opt2": "B. Cat is an animal", "opt3": "C. Meo biet bay", "opt4": "Meo an co"}
+{"questionId": 3,"point": 5,"minutes": 20,"type": "CalculationQuestion", "solution": "1", "content": "Hay tinh tich phan tu 0 den vo cung cua 1/x^2"}
+{"questionId": 4,"point": 10,"minutes": 40,"type": "CalculationQuestion", "solution": "1", "content": "Hay tinh tich tong chuoi 1/x^n voi n=1..vocung"}
