@@ -1,0 +1,5 @@
+4
+Peter;Project1:2000;Project2:100;Project3:30
+Bob;Project4:5000
+Mark;Project5:500
+Susan;Project6:10;Project7
