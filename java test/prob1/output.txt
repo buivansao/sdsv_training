@@ -1,0 +1,3 @@
+This is a circle with area = 314.0
+This is a square with area = 529.0
+This is a rectangle with area = 55.0
