@@ -1,0 +1,4 @@
+Implement a project, name it "prob3".
+It reads data from "System.in" line by line (using Scanner or the like) and print lines to "System.out" if they contain "SDS 2022" and do not starts with "#" or ";".
+
+Sample data is given in "lines.txt". Expected output for the file is given in "output.txt".

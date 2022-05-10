@@ -1,0 +1,10 @@
+-------------------------------------------------------------------------------
+Test set: exam.sds.AppTest
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0.031 s <<< FAILURE! - in exam.sds.AppTest
+testMain(exam.sds.AppTest)  Time elapsed: 0.016 s  <<< FAILURE!
+org.junit.ComparisonFailure: 
+expected:<Ha hic SDS 2022 kake[
+]> but was:<Ha hic SDS 2022 kake[]>
+	at exam.sds.AppTest.testMain(AppTest.java:31)
+
