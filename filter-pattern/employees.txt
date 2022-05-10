@@ -1,0 +1,13 @@
+Peter Sales male 1000 true
+Bob Sales male 1000 true
+Mary Receptionist male 1000 false
+Susan Receptionist male 1000 false
+Kriten Sales male 1000 false
+Pamela Sales female 1000 true
+Bobby Receptionist male 1000 false
+David Security male 1000 false
+Brad Security male 1000 true
+Tom Security male 300 true
+Steve Security male 1000 true
+Samuel Security male 1000 false
+Jonhny Security male 1000 false
